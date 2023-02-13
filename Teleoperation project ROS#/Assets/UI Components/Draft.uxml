@@ -1,0 +1,13 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI%20Components/Button%20Style.uss?fileID=7433441132597879392&amp;guid=1f5ee0bcd130ab2408eec08de60f04ce&amp;type=3#Button Style" />
+    <ui:VisualElement name="Background" focusable="true" style="flex-grow: 1; justify-content: space-between; align-items: stretch; flex-direction: row;">
+        <ui:VisualElement name="left" style="overflow: visible; visibility: visible; display: flex; height: auto; width: 50%; background-image: none; flex-direction: column-reverse; flex-grow: 1; justify-content: space-between;">
+            <ui:VisualElement style="background-color: rgba(255, 255, 255, 0.21); height: 104px; width: auto; -unity-background-image-tint-color: rgb(255, 255, 255); border-top-left-radius: 15px; border-bottom-left-radius: 15px; border-top-right-radius: 15px; border-bottom-right-radius: 15px; align-items: flex-start; justify-content: flex-end;">
+                <ui:Label text="Franka Emika Panda Controller" display-tooltip-when-elided="true" style="position: absolute; top: 0; left: 5px;" />
+                <ui:Button text="Calibrate" display-tooltip-when-elided="true" name="calibrate" class="button-style" />
+                <ui:Toggle label="Publish EE Pose" name="publish-ee-pose" class="button-style" style="align-items: stretch; justify-content: flex-start; -unity-font-style: normal; background-color: rgb(54, 59, 125); color: rgb(255, 255, 255); width: 198px;" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+        <ui:VisualElement name="right" style="flex-direction: column-reverse; flex-grow: 1; justify-content: space-between; width: 50%;" />
+    </ui:VisualElement>
+</ui:UXML>
